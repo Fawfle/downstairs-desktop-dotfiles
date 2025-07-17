@@ -1,0 +1,57 @@
+[
+    {
+        "data": [
+            {
+                "allowDdcCi": true,
+                "allowSdrSoftwareBrightness": true,
+                "autoRotation": "InTabletMode",
+                "brightness": 0.95,
+                "colorPowerTradeoff": "PreferEfficiency",
+                "colorProfileSource": "sRGB",
+                "connectorName": "VGA-1",
+                "detectedDdcCi": false,
+                "edidHash": "04398c452805b8cde114453416ee86c6",
+                "edidIdentifier": "DEL 16384 1111642454 52 2003 0",
+                "edrPolicy": "always",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "maxBitsPerColor": 0,
+                "mode": {
+                    "height": 1024,
+                    "refreshRate": 75025,
+                    "width": 1280
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "uuid": "34130c41-931c-4873-9e11-10e50dff2eb8",
+                "vrrPolicy": "Never",
+                "wideColorGamut": false
+            }
+        ],
+        "name": "outputs"
+    },
+    {
+        "data": [
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    }
+                ]
+            }
+        ],
+        "name": "setups"
+    }
+]
