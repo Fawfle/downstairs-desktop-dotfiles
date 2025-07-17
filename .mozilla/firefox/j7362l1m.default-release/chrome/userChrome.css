@@ -1,0 +1,34 @@
+* {
+  border-radius: 0 !important;
+}
+
+.tab-background {
+  outline-width: 0px !important;
+  outline-offset: -2px !important;
+  border-color: var(--lwt-text-color);
+  border-bottom: 3px solid;
+  margin-bottom: -3px;
+}
+
+.tab-background {
+  &:is([selected]) {
+    border-color: var(--tab-selected-outline-color);
+  }
+}
+
+
+.tab-background {  
+  &:is([multiselected]) {
+    border-color: var(--focus-outline-color);
+  }
+}
+
+/* very hacky, need to override defaults (I don't know how to do it in 1 rule) */
+.tab-background {
+  .tabbrowser-tab:hover > .tab-stack > &:not([selected], [multiselected]) {
+    background-color: var(--tab-hover-background-color) !important;
+  }
+  .tabbrowser-tab:hover > .tab-stack > &:is([selected], [multiselected]) {
+    background-color: var(--tab-hover-background-color) !important;
+  }
+}

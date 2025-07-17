@@ -1,0 +1,20 @@
+* {
+  border-radius: 0 !important;
+}
+
+@-moz-document url("about:newtab"), url("about:home"), url("about:privatebrowsing") {
+  body::before {
+    content: "";
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(wallpapers/black-space-moon.gif) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+}  
